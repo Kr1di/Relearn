@@ -175,6 +175,44 @@ a {
   gap: 16px;
 }
 
+.test-accounts {
+  margin-top: 32px;
+  display: grid;
+  gap: 16px;
+}
+
+.test-accounts-title {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.test-accounts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.test-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 14px 16px;
+  display: grid;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.test-card strong {
+  font-size: 14px;
+  color: var(--text);
+}
+
+.test-pass {
+  font-size: 12px;
+  color: var(--primary-dark);
+}
+
 .metric-value {
   font-weight: 700;
   font-size: 22px;
